@@ -1,38 +1,79 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>영화목록리스트</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영화목록리스트</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
-    <section class="container">
-      <h1 class="container-title">정글 시네마 영화 목록</h1>
-      <nav class="navigation">
-        <ol>
-          <li class="nav-title"><a href="#">현재상영영화</a></li>
-          <li class="nav-title"><a href="#">개봉예정영화</a></li>
-          <li class="nav-title"><a href="#">박스오피스</a></li>
-        </ol>
-      </nav>
-      <section class="list-wrapper">
-        <ul class="list-box">
-          <li class="list-item">
+  <section class="container">
+    <h1 class="container-title">정글 시네마 영화 목록</h1>
+    <nav class="navigation">
+      <ol>
+        <li class="nav-title selected"><a href="#">현재상영영화</a></li>
+        <li class="nav-title"><a href="#">개봉예정영화</a></li>
+        <li class="nav-title"><a href="#">박스오피스</a></li>
+      </ol>
+    </nav>
+    <section class="list-wrapper">
+      <h2 class="sc-out">영화목록</h2>
+
+      <ul class="list-box">
+        <li class="list-item">
+
+          <section class="desc-section">
             <img src="./assets/image/포스터_위니브월드.png" alt="위니브월드 새로운시대" class="book-img">
             <h2 class="book-name">위니브 월드 : 새로운 시대</h2>
-            <div>
-            <span class="item-desc"><em class="desc-type">개요</em>판타지</span>
-            <span class="item-desc"><em class="desc-type">평점</em>9.05</span>
-            <span class="item-desc"><em class="desc-type">개봉</em>2021.03.27</span>
-            <span class="item-desc"><em class="desc-type">출연</em>라이캣,소울곰,개리씨</span>
+            <div class="item-wrapper">
+              <div class="item-desc-section">
+                <span class="item-desc">
+                  <em class="item-desc-type">개요</em>
+                  판타지
+                </span>
+                <span class="item-desc"><em class="desc-type">평점</em>
+                  <img src="./assets/image/별점이미지.png" alt="" class="ico-star">
+                  9.05</span>
+              </div>
+              <span class="item-desc"><em class="desc-type">개봉</em>2021.03.27</span>
+              <span class="item-desc"><em class="desc-type">출연</em>라이캣, 소울곰, 개리씨</span>
             </div>
+          </section>
+
+          <section class="btn-group">
+            <h2 class="sc-out">버튼영역</h2>
             <button type="button" class="reservation-btn">예매하기</button>
             <button type="button" class="preview-btn">예고편</button>
-          </li>
-        </ul>
-      </section>
+          </section>
+        </li>
+      </ul>
     </section>
+  </section>
+
+  <footer class="footer">
+    <div>
+      <h2>Jungle Cinema</h2>
+      <img src="./assets/image/twitter.png" alt="트위터로 이동">
+      <img src="./assets/image/instagram.png" alt="인스타그램으로 이동">
+      <img src="./assets/image/facebook.png" alt="페이스북으로 이동">
+    </div>
+
+    <p>
+      <strong>(주) 정글 시네마</strong>
+      |
+      <strong>대표</strong> 라이언
+      |
+      <strong>사업자 번호</strong> 000-0000-0000 | 광고 영화 및 비디오물 제작업 |
+      <strong>주소</strong> 서울특별시
+    </p>
+
+    <span>ⓒ The Jungle</span>
+
+  </footer>
 </body>
+
 </html>

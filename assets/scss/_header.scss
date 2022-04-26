@@ -3,9 +3,45 @@ body {
   height: 100vh;
   margin: 0;
   border: 0;
+  background-color: #fff;
+  font-family: $font-main;
 }
 
 .container {
   width: 1060px;
   background-color: $gray-6;
+  border: 2px solid $gray-4;
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 31px 28px 31px 29px;
+  .container-title {
+    font-size: $font-24;
+    line-height: 28px;
+    font-weight: $fw-700;
+    text-align: center;
+    margin: 10px 0 37px;
+  }
+  .navigation {
+    font-size: $font-16;
+    line-height: 19px;
+    ol {
+      width: 372px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 28px;
+      margin: 0 auto;
+      border-top: 1px solid $gray-4;
+
+      .nav-title {
+        a {
+          color: $gray-3;
+        }
+        &.selected a {
+          color: $black;
+          font-weight: $fw-900;
+        }
+      }
+    }
+  }
 }

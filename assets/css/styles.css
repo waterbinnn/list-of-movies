@@ -1,13 +1,151 @@
-@import url(./reset.css);
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 100vh;
   margin: 0;
   border: 0;
+  background-color: #fff;
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
 }
 
 .container {
   width: 1060px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 31px 28px 31px 29px;
+}
+
+.container .container-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px 0 37px;
+}
+
+.container .navigation {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.container .navigation ol {
+  width: 372px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 28px;
+  margin: 0 auto;
+  border-top: 1px solid #bdbdbd;
+}
+
+.container .navigation ol .nav-title a {
+  color: #828282;
+}
+
+.container .navigation ol .nav-title.selected a {
+  color: #000000;
+  font-weight: 900;
+}
+
+.list-wrapper {
+  width: 1003px;
+  padding: 26px 27px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.list-wrapper .list-box .list-item {
+  font-family: "Noto Sans KR", "Roboto", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 220px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.list-wrapper .list-box .list-item .desc-section {
+  padding: 19px 20px 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.list-wrapper .list-box .list-item .book-img {
+  width: 180px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  margin-bottom: 11px;
+}
+
+.list-wrapper .list-box .list-item .book-name {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 23px;
+  margin-bottom: 12px;
+}
+
+.list-wrapper .list-box .list-item .desc-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-wrapper .list-box .list-item .item-desc {
+  font-size: 13px;
+  line-height: 19px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.list-wrapper .list-box .list-item .item-desc .desc-type {
+  font-style: normal;
+  color: #828282;
+  margin-right: 5px;
+}
+
+.list-wrapper .list-box .list-item .item-desc .ico-star {
+  width: 14px;
+  vertical-align: -1px;
+}
+
+.list-wrapper .btn-group {
+  width: 220px;
+  margin-top: 18px;
+  width: auto;
+  background-color: #f2f2f2;
+}
+
+.list-wrapper .btn-group button {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f2f2f2;
 }
