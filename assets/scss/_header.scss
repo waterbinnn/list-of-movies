@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  width: auto;
   height: 100vh;
   margin: 0;
   border: 0;
@@ -7,12 +8,17 @@ body {
   font-family: $font-main;
 }
 
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .container {
-  width: 1060px;
   background-color: $gray-6;
   border: 2px solid $gray-4;
   border-radius: 10px;
-  margin: 100px auto;
+  margin: 90px auto;
   padding: 31px 28px 31px 29px;
   .container-title {
     font-size: $font-24;
@@ -25,17 +31,22 @@ body {
     font-size: $font-16;
     line-height: 19px;
     ol {
-      width: 372px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      width: 50%;
+      @include item-space;
       padding: 28px;
       margin: 0 auto;
       border-top: 1px solid $gray-4;
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
 
       .nav-title {
         a {
           color: $gray-3;
+          @media (max-width: 768px) {
+            display: block;
+            padding-top: 10px;
+          }
         }
         &.selected a {
           color: $black;
