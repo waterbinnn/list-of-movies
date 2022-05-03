@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+  min-width: 320px;
   background-color: #f2f2f2;
   border: 2px solid #bdbdbd;
   border-radius: 10px;
@@ -96,7 +97,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 23px;
-  margin: 23px 0;
+  margin: 23px;
 }
 
 .list-wrapper .list-box .list-item {
@@ -181,12 +182,14 @@ body {
           align-items: center;
 }
 
-.list-wrapper .list-box .list-item .item-wrapper .item-desc {
+.list-wrapper .list-box .list-item .item-wrapper dd {
   color: #000000;
+  display: inline-block;
   margin-bottom: 5px;
 }
 
-.list-wrapper .list-box .list-item .item-wrapper .desc-type {
+.list-wrapper .list-box .list-item .item-wrapper dt {
+  display: inline-block;
   color: #828282;
   margin-right: 5px;
 }
