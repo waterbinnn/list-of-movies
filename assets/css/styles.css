@@ -1,6 +1,6 @@
 body {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: auto;
   height: 100vh;
   margin: 0;
@@ -12,7 +12,7 @@ body {
 .wrapper {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
   background-color: #f2f2f2;
   border: 2px solid #bdbdbd;
   border-radius: 10px;
-  margin: 90px auto;
+  margin: 0px auto;
   padding: 31px 28px 31px 29px;
 }
 
@@ -43,11 +43,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 28px;
   margin: 0 auto;
   border-top: 1px solid #bdbdbd;
@@ -57,8 +57,8 @@ body {
   .container .navigation ol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -92,10 +92,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 23px;
   margin: 23px;
 }
@@ -103,12 +103,12 @@ body {
 .list-wrapper .list-box .list-item {
   font-family: "Noto Sans KR", "Roboto", sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 220px;
   border: 1px solid #bdbdbd;
   border-radius: 10px;
   -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .list-wrapper .list-box .list-item .desc-section {
@@ -118,15 +118,15 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .list-wrapper .list-box .list-item .book-img {
   width: 180px;
   height: 250px;
   -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   border: 1px solid #bdbdbd;
   border-radius: 10px;
   margin-bottom: 11px;
@@ -148,14 +148,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-align: initial;
-      -ms-flex-align: initial;
-          align-items: initial;
+  -ms-flex-align: initial;
+  align-items: initial;
 }
 
 .list-wrapper .list-box .list-item .item-wrapper {
@@ -164,8 +164,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   font-size: 13px;
   line-height: 19px;
 }
@@ -175,11 +175,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .list-wrapper .list-box .list-item .item-wrapper dd {
@@ -207,10 +207,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .list-wrapper .btn-group button {
@@ -235,7 +235,7 @@ body {
 
 .footer {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: auto;
   background-color: #f2f2f2;
 }
@@ -247,11 +247,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer h2 {
@@ -277,11 +277,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 36px 0 18px;
 }
 
